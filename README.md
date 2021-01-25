@@ -49,8 +49,6 @@
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; MapReduce là mô hình được thiết kế độc quyền bởi Google, nó có khả năng lập trình xử lý các tập dữ liệu lớn song song và phân tán thuật toán trên 1 cụm máy tính. MapReduce trở thành một trong những thành ngữ tổng quát hóa trong thời gian gần đây. MapReduce sẽ bao gồm 2 thủ tục là một thủ tục Map() và 1 thủ tục Reduce(). Thủ tục Map() bao gồm lọc (filter) và phân loại (sort) trên dữ liệu khi thủ tục khi thủ tục Reduce() thực hiện quá trình tổng hợp dữ liệu. Đây là mô hình dựa vào các khái niệm biển đối của bản đồ và reduce những chức năng lập trình theo hướng chức năng. Thư viện của thủ tục Map() và Reduce() sẽ được viết bằng nhiều loại ngôn ngữ khác nhau. Thủ tục được cài đặt miễn phí và được sử dụng phổ biến nhất là là Apache Hadoop.</p>
 
 #### *II. Mô hình MapReduce*
-<p align="center"> <img src ="https://user-images.githubusercontent.com/77878466/105629766-86c35700-5e77-11eb-98e4-e1e47a5d0d2b.png" width="70%"/>
-<p align="center"> <em>Mô hình các hàm chính của MapReduce</em> </p>
 
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; MapReduce có 2 hàm chính là Map() và Reduce(), đây là 2 hàm đã được định nghĩa bởi người dùng và nó cũng chính là 2 giai đoạn liên tiếp trong quá trình xử lý dữ liệu của MapReduce.</p>
 
